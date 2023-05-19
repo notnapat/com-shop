@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: ; */
+  /* scroll-behavior: smooth ; */
+}
+
+* { -webkit-tap-highlight-color: rgba(0,0,0,0); }
+
+/* :root {
+  screen
+  --mw_bigscreen:100%;
+  --mw_pc: 1320px;
+  --mw_tab: 768px;
+  --mw_mobile:576px;
+
+  --vp-pc:91.67%;
+} */
+
+/* @media screen {
+  
+} */
+
+/* body {
+  width: 100%;
+  background-color: var(--background);
+  color: #000000;
+  overflow-x: hidden;
+  position: relative; 
+} */

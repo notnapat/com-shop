@@ -1,0 +1,17 @@
+.home-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(22, 22, 23, 0.8);
+}
+
+.slide-top{
+    width: 100%;
+}

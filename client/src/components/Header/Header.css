@@ -1,0 +1,148 @@
+.container {
+    /* max-width: 960px; */
+    max-width: 1440px;
+    /* margin: 0 auto; */
+    width: 95%;
+}
+
+
+.header {
+    background: #333;
+    /* height: 80px; */
+    height: 56px;
+}
+
+.header-con {
+    display: flex;
+    justify-content: space-between;
+    /* height: 80px; */
+    height: 56px;
+    align-items: center;
+}
+
+.logo-container a img {
+    /* color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem; */
+    height: 30px;
+    width: 50px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 7rem;
+}
+
+/* .menu li {
+    padding-right: 2rem;
+} */
+
+.menu li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu li a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu-icons {
+    display: flex;
+    gap: 2rem !important;
+    list-style-type: none;
+}
+
+.menu-icons img {
+    opacity: 0.8;
+}
+
+.menu-icons img:hover {
+    opacity: 1;
+}
+
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .menu {
+        gap: 5rem;
+    }
+
+    .menu-icons {
+        gap: 1.3rem !important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .menu {
+        gap: 2.7rem;
+    }
+
+}
+
+/* @media screen and (max-width: 480px) { */
+/* @media screen and (max-width: 576px) { */
+@media screen and (max-width: 768px) {
+
+
+    .menu-icons {
+        position: absolute;
+        right: 90px;
+    }
+
+    .mobile-menu {
+        display: block;
+        color: #fff;
+        font-size: 3rem;
+    }
+
+
+    .menu {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        height: 500px;
+        /* height: auto; */
+        top: 55px;
+        left: -100%;
+        opacity: 0;
+        transition: 500ms ease;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .menu.active {
+        /* background: #111; */
+        background: #161616;
+        display: flex;
+        /* background: green; */
+        top: 55px;
+        left: 0;
+        opacity: 1;
+        z-index: 1;
+        font-size: 1.5rem;
+        /* height: auto; */
+        height: 500px;
+        transition: 500ms ease;
+    }
+
+    .menu-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+  a:active {
+  background-color: none;
+}
+
+
+}
